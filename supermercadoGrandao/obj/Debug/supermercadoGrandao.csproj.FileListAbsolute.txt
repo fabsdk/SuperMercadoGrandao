@@ -1,0 +1,13 @@
+C:\Users\fabia\OneDrive\Desktop\supermercadoGrandao\supermercadoGrandao\bin\Debug\supermercadoGrandao.exe.config
+C:\Users\fabia\OneDrive\Desktop\supermercadoGrandao\supermercadoGrandao\bin\Debug\supermercadoGrandao.exe
+C:\Users\fabia\OneDrive\Desktop\supermercadoGrandao\supermercadoGrandao\bin\Debug\supermercadoGrandao.pdb
+C:\Users\fabia\OneDrive\Desktop\supermercadoGrandao\supermercadoGrandao\obj\Debug\supermercadoGrandao.csproj.AssemblyReference.cache
+C:\Users\fabia\OneDrive\Desktop\supermercadoGrandao\supermercadoGrandao\obj\Debug\supermercadoGrandao.csproj.SuggestedBindingRedirects.cache
+C:\Users\fabia\OneDrive\Desktop\supermercadoGrandao\supermercadoGrandao\obj\Debug\supermercadoGrandao.frmPrincipal.resources
+C:\Users\fabia\OneDrive\Desktop\supermercadoGrandao\supermercadoGrandao\obj\Debug\supermercadoGrandao.frmLogin.resources
+C:\Users\fabia\OneDrive\Desktop\supermercadoGrandao\supermercadoGrandao\obj\Debug\supermercadoGrandao.Properties.Resources.resources
+C:\Users\fabia\OneDrive\Desktop\supermercadoGrandao\supermercadoGrandao\obj\Debug\supermercadoGrandao.csproj.GenerateResource.cache
+C:\Users\fabia\OneDrive\Desktop\supermercadoGrandao\supermercadoGrandao\obj\Debug\supermercadoGrandao.csproj.CoreCompileInputs.cache
+C:\Users\fabia\OneDrive\Desktop\supermercadoGrandao\supermercadoGrandao\obj\Debug\supermercadoGrandao.exe
+C:\Users\fabia\OneDrive\Desktop\supermercadoGrandao\supermercadoGrandao\obj\Debug\supermercadoGrandao.pdb
+C:\Users\fabia\OneDrive\Desktop\supermercadoGrandao\supermercadoGrandao\obj\Debug\supermercadoGrandao.frmReceber.resources
