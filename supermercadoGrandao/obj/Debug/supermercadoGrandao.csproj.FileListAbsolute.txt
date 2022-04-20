@@ -11,3 +11,15 @@ C:\Users\fabia\OneDrive\Desktop\supermercadoGrandao\supermercadoGrandao\obj\Debu
 C:\Users\fabia\OneDrive\Desktop\supermercadoGrandao\supermercadoGrandao\obj\Debug\supermercadoGrandao.exe
 C:\Users\fabia\OneDrive\Desktop\supermercadoGrandao\supermercadoGrandao\obj\Debug\supermercadoGrandao.pdb
 C:\Users\fabia\OneDrive\Desktop\supermercadoGrandao\supermercadoGrandao\obj\Debug\supermercadoGrandao.frmReceber.resources
+C:\Users\fabiana.sdkamamoto\Desktop\SuperMercadoGrandao\supermercadoGrandao\bin\Debug\supermercadoGrandao.exe.config
+C:\Users\fabiana.sdkamamoto\Desktop\SuperMercadoGrandao\supermercadoGrandao\bin\Debug\supermercadoGrandao.exe
+C:\Users\fabiana.sdkamamoto\Desktop\SuperMercadoGrandao\supermercadoGrandao\bin\Debug\supermercadoGrandao.pdb
+C:\Users\fabiana.sdkamamoto\Desktop\SuperMercadoGrandao\supermercadoGrandao\obj\Debug\supermercadoGrandao.csproj.AssemblyReference.cache
+C:\Users\fabiana.sdkamamoto\Desktop\SuperMercadoGrandao\supermercadoGrandao\obj\Debug\supermercadoGrandao.frmPrincipal.resources
+C:\Users\fabiana.sdkamamoto\Desktop\SuperMercadoGrandao\supermercadoGrandao\obj\Debug\supermercadoGrandao.frmLogin.resources
+C:\Users\fabiana.sdkamamoto\Desktop\SuperMercadoGrandao\supermercadoGrandao\obj\Debug\supermercadoGrandao.Properties.Resources.resources
+C:\Users\fabiana.sdkamamoto\Desktop\SuperMercadoGrandao\supermercadoGrandao\obj\Debug\supermercadoGrandao.frmReceber.resources
+C:\Users\fabiana.sdkamamoto\Desktop\SuperMercadoGrandao\supermercadoGrandao\obj\Debug\supermercadoGrandao.csproj.GenerateResource.cache
+C:\Users\fabiana.sdkamamoto\Desktop\SuperMercadoGrandao\supermercadoGrandao\obj\Debug\supermercadoGrandao.csproj.CoreCompileInputs.cache
+C:\Users\fabiana.sdkamamoto\Desktop\SuperMercadoGrandao\supermercadoGrandao\obj\Debug\supermercadoGrandao.exe
+C:\Users\fabiana.sdkamamoto\Desktop\SuperMercadoGrandao\supermercadoGrandao\obj\Debug\supermercadoGrandao.pdb

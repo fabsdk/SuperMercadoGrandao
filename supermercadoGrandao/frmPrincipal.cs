@@ -23,9 +23,9 @@ namespace supermercadoGrandao
             InitializeComponent();
 
             //produtos
-            listaDeProdutosDisponiveis.Add(new ProdutoUnidade("Coca-Cola 2L", 8.00));
-            listaDeProdutosDisponiveis.Add(new ProdutoPeso("Picanha", 98.00, 0.00));
-            listaDeProdutosDisponiveis.Add(new ProdutoUnidade("Pão de alho poró 4un", 20.00));
+            listaDeProdutosDisponiveis.Add(new ProdutoUnidade("Guaraná 2L", 5.50));
+            listaDeProdutosDisponiveis.Add(new ProdutoPeso("Lichia", 18.00, 1.00));
+            listaDeProdutosDisponiveis.Add(new ProdutoUnidade("Caixa de Bombom", 10.00));
 
 
             //funcionarios
@@ -72,11 +72,12 @@ namespace supermercadoGrandao
 
         private void btnAdicionar_Click(object sender, EventArgs e)
         {
-            while(listaDeProdutosDisponiveis == null)
+            foreach (Produto Produto in listaDeProdutosDisponiveis)
             {
-                foreach(Produto produto in listaDeProdutosDisponiveis)
+                if (txtProdutos.Text == Produto.NomeProduto)
                 {
-                   
+                    lstProdutos.Items.Add(Produto.NomeProduto);
+                    funcionarioAtual.fecharCompra(carrinho);
                 }
             }
         }
@@ -89,7 +90,7 @@ namespace supermercadoGrandao
 
         private void btnReceber_Click(object sender, EventArgs e)
         {
-            frmReceber receber = new frmReceber();
+            frmReceber receber = new frmReceber(funcionarioAtual, carrinho);
             receber.ShowDialog();
         }
     }

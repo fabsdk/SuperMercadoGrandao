@@ -13,10 +13,16 @@ namespace supermercadoGrandao
     public partial class frmReceber : Form
     {
         public double dinheiro { get; private set; }
-        public frmReceber()
+        private Funcionario funcionarioAtual;
+        private Carrinho carrinho; 
+
+        public frmReceber(Funcionario funcionarioAtual, Carrinho carrinho)
         {
             InitializeComponent();
+            this.carrinho = carrinho;
+            this.funcionarioAtual = funcionarioAtual;
         }
+
 
         
 
@@ -27,7 +33,7 @@ namespace supermercadoGrandao
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-         
-        }
+            this.funcionarioAtual.receberPagamento(this.carrinho, Double.Parse(txtRecebeu.Text));
+        } 
     }
 }
