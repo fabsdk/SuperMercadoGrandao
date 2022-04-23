@@ -33,8 +33,6 @@
             this.txtRecebeu = new System.Windows.Forms.TextBox();
             this.lblRecebido = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.lblTroco = new System.Windows.Forms.Label();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -55,7 +53,7 @@
             this.buttonOk.BackColor = System.Drawing.Color.DodgerBlue;
             this.buttonOk.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonOk.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonOk.Location = new System.Drawing.Point(535, 313);
+            this.buttonOk.Location = new System.Drawing.Point(294, 284);
             this.buttonOk.Name = "buttonOk";
             this.buttonOk.Size = new System.Drawing.Size(136, 66);
             this.buttonOk.TabIndex = 1;
@@ -94,36 +92,12 @@
             this.label1.Size = new System.Drawing.Size(0, 46);
             this.label1.TabIndex = 4;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Red;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(237, 256);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(124, 46);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Troco";
-            // 
-            // lblTroco
-            // 
-            this.lblTroco.AutoSize = true;
-            this.lblTroco.BackColor = System.Drawing.Color.DarkMagenta;
-            this.lblTroco.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTroco.ForeColor = System.Drawing.Color.White;
-            this.lblTroco.Location = new System.Drawing.Point(367, 256);
-            this.lblTroco.Name = "lblTroco";
-            this.lblTroco.Size = new System.Drawing.Size(42, 46);
-            this.lblTroco.TabIndex = 6;
-            this.lblTroco.Text = "$";
-            // 
             // btnCalcular
             // 
             this.btnCalcular.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalcular.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnCalcular.Location = new System.Drawing.Point(226, 202);
+            this.btnCalcular.Location = new System.Drawing.Point(228, 209);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(249, 51);
             this.btnCalcular.TabIndex = 7;
@@ -140,8 +114,6 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(682, 391);
             this.Controls.Add(this.btnCalcular);
-            this.Controls.Add(this.lblTroco);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblRecebido);
             this.Controls.Add(this.txtRecebeu);
@@ -161,8 +133,6 @@
         private System.Windows.Forms.TextBox txtRecebeu;
         private System.Windows.Forms.Label lblRecebido;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblTroco;
         private System.Windows.Forms.Button btnCalcular;
     }
 }

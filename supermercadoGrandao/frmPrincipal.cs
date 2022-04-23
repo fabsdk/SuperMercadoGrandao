@@ -37,6 +37,20 @@ namespace supermercadoGrandao
        public void AtualizarTela()
         {
             lblFuncionario.Text = funcionarioAtual.Nome;
+            //Lista de Produtos
+            cboProdutos.Items.Clear();
+            foreach (Produto produto in listaDeProdutosDisponiveis)
+            {
+                cboProdutos.Items.Add(produto.NomeProduto);
+            }
+
+            //Lista do carrinho
+            lstProdutos.Items.Clear();
+            foreach (Produto produto in carrinho.listaProdutos)
+            {
+               lstProdutos.Items.Add(produto.NomeProduto);
+            }
+            lblTotal.Text = carrinho.total().ToString();
         }
 
 
@@ -72,14 +86,14 @@ namespace supermercadoGrandao
 
         private void btnAdicionar_Click(object sender, EventArgs e)
         {
-            foreach (Produto Produto in listaDeProdutosDisponiveis)
+            if (listaDeProdutosDisponiveis[cboProdutos.SelectedIndex].GetType() == typeof(ProdutoPeso))
             {
-                if (txtProdutos.Text == Produto.NomeProduto)
-                {
-                    lstProdutos.Items.Add(Produto.NomeProduto);
-                    funcionarioAtual.fecharCompra(carrinho);
-                }
+                   
             }
+
+
+            funcionarioAtual.adicionarProduto(listaDeProdutosDisponiveis[cboProdutos.SelectedIndex], carrinho);
+            AtualizarTela();
         }
 
         private void btnRemover_Click(object sender, EventArgs e)
@@ -92,6 +106,7 @@ namespace supermercadoGrandao
         {
             frmReceber receber = new frmReceber(funcionarioAtual, carrinho);
             receber.ShowDialog();
+            AtualizarTela();
         }
     }
 }

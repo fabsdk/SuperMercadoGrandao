@@ -21,6 +21,7 @@ namespace supermercadoGrandao
             InitializeComponent();
             this.carrinho = carrinho;
             this.funcionarioAtual = funcionarioAtual;
+
         }
 
 
