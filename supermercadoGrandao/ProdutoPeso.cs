@@ -17,7 +17,7 @@ namespace supermercadoGrandao
 
         public override double total()
         {
-            return this.Valor * Peso;
+            return this.Valor * this.Peso;
         }
     }
 }

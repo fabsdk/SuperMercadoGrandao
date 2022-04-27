@@ -86,13 +86,19 @@ namespace supermercadoGrandao
 
         private void btnAdicionar_Click(object sender, EventArgs e)
         {
+            Produto produto;
             if (listaDeProdutosDisponiveis[cboProdutos.SelectedIndex].GetType() == typeof(ProdutoPeso))
             {
-                   
+                Produto _produto = listaDeProdutosDisponiveis[cboProdutos.SelectedIndex];
+                produto = new ProdutoPeso(_produto.NomeProduto, _produto.Valor, double.Parse(txtKilo.Text));
+
+            }
+            else
+            {
+                produto = listaDeProdutosDisponiveis[cboProdutos.SelectedIndex];
             }
 
-
-            funcionarioAtual.adicionarProduto(listaDeProdutosDisponiveis[cboProdutos.SelectedIndex], carrinho);
+            funcionarioAtual.adicionarProduto(produto, carrinho);
             AtualizarTela();
         }
 
